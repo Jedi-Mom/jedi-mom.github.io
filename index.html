@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <meta charset="utf-8">
+    <title>Ann Porter | Designer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Risque" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lb.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+
+
+  <body>
+    
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Designs by Jedi</h1>
+        <h2>Designer</h2>
+      </a>
+      <nav>      
+        <ul>   <!-- unordered list -->         
+          <li><a href="index.html" class="selected">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+   <div id="flashInst"> <!-- added for jQuery Need to add a click button to make this useful more than once -->
+    Click the thumbnail below to activate the lightbox
+    </div>
+
+
+
+<!-- test 2 for jquery instruction button 2/17/18  -->
+<p class="photoToggle">
+  <span>Click on the photo to see the edited version.  Click on the edited version to close the window.</span>
+</p>
+
+
+    <div id="wrapper">      <!--DIV INCLUDES SECTION AND FOOTER -->
+      <section class="lb"> <!-- added class lb to fix color issue  -->
+<!-- static instruction about lightbox feature -->
+        <h2>Click the thumbnail below to activate the lightbox</h2>
+          <ul id="gallery">
+            <li> <!--1st item in list -->
+              <a href="#img1"><img src="img/100_4399.JPG" class="thumbnail">
+                <p><strong>Moth on a Marigold</strong></p>
+                </a>
+              <a href="#_" class="lightbox" id="img1"><img src="img/c100_4399.JPG">
+              </a>      
+            </li>
+            <li> <!--2nd item in list -->
+              <a href="#img2"><img src="img/IMG_0037.JPG" class="thumbnail">
+                <p><strong>Cowboy in Thought</strong></p>
+              </a>
+              <a href="#_" class="lightbox" id="img2"><img src="img/IMG_0037-1.jpg">
+              </a>  
+            </li>
+            <li> <!--3rd item in list -->
+              <a href="#img3">
+              <img src="img/ann%209mo.jpg" class="thumbnail">
+                <p>1978</p>
+              </a>
+              <a href="#_" class="lightbox" id="img3"><img src="img/ann%20sketch.jpg">
+              </a>
+            </li>
+          </ul> <!--end of unordered list -->
+      </section>
+
+
+      <footer>
+        <a href="http://twitter.com/master_jedi_78"><img src="img/logo_twitter.png" alt="Twitter Logo" class="social-icon">
+          </a>
+        <a href="https://www.facebook.com/DesignsByJedi"><img src="img/logo_facebook.png" alt="Facebook Logo" class="social-icon">
+          </a>
+        <a href="https://www.instagram.com/masterjedi78"><img src="img/logo_instagram.png" alt="Instagram Logo" class="social-icon">
+          </a>
+        <a href="https://jedi-mom.github.io/index.html"><img src="img/logo_github.png" alt="Github" class="social-icon">
+          </a>
+          <a href="https://www.linkedin.com/in/annmporter"><img src="img/logo_linkedin.png" alt="LinkedIn Logo" class="social-icon"</a>
+        <p>&copy; 2018 Designs by Jedi.</p>
+      </footer>
+
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lb.js" type="text/javascript" charset="utf-8"></script>
+
+  </body>
+</html>

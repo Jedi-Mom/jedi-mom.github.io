@@ -1,0 +1,344 @@
+/***********************************
+GENERAL
+***********************************/
+
+#wrapper {
+  font-family: 'Risque', cursive;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1%;
+    
+}
+
+#flashInst {
+  font-family: 'Risque', cursive;
+  max-width: 1200px;
+  font-size: 18px;
+  background: rgb(51, 0, 56);
+  color: rgb(201, 167, 188);
+  text-align:center;
+}
+
+a {
+  font-family: 'Risque', cursive;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/***********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Risque', cursive;
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 36px;
+}
+
+h2 {
+  font-family: 'Risque', cursive;
+  font-size: 12px;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Risque', cursive;
+ 
+}
+
+
+/***********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}  
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 500;
+  padding: 15px 10px;
+}
+
+
+
+/***********************************
+FOOTER 
+
+Free social media set ---- 
+Designer: Axialis S.A. (https://www.iconfinder.com/WillE)
+License: Free for commercial use (Include link to authors website)
+
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #e86af0;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/***********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 28.3333%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 1em;
+  color: #9e379f;
+}
+
+#gallery li:nth-child(4n) {
+  clear: left;
+}
+
+
+
+
+
+/***********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  float: left;
+  display: block;
+  max-width: 150px;
+  margin: 0 5% 80px 0;
+  border-radius: 100%;
+}
+
+
+
+        
+
+/***********************************
+PAGE: CONTACT
+***********************************/
+
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/logo_phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/logo_email.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/logo_twitter.png');
+}
+
+.contact-info li.facebook a {
+  background-image: url('../img/logo_facebook.png');
+}
+
+.banner,
+.main-footer {
+	text-align: center;
+}
+.banner {
+	color: #fff;
+	background: #371d4d;
+	padding: 3.2em 0;
+	margin-bottom: 48px;
+}
+
+.logo {
+  background-image: url('../img/ANN2017.jpg');
+float: center;
+  max-width: 150px;
+  margin: 1px;
+  border-radius: 100%;
+}
+
+
+
+
+/***********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #493267;
+}
+
+/* header */
+header {
+  background: #493267;
+  border-color: #e86af0;
+}
+
+/* nav background on mobile */
+nav {
+  background: #7bb3ff;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #7bb3ff;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selectd nav link */
+nav a.selected, nav a:hover {
+  color: #e86af0;
+}
+
+footer p {
+  color: #e86af0;
+}
+/***********************************
+merging responsive.css
+
+***********************************/
+
+@media screen and (min-width: 480px) {
+  
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.main-header,
+	.main-nav {
+		display: flex;
+	}
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}  
+  
+/***********************************
+PAGE: HEADER
+***********************************/  
+  
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #e86af0;
+    margin-bottom: 60px;
+  }
+  
+}
+
