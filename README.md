@@ -2,12 +2,13 @@
 
 ## Description
 ```
-A brief description of your project
-
 This is a personal webpage, showcasing my Portfolio of photos, an About me page and a Contact page.  For the Porfolio page, I have created html and css coding to set up lightbox.  With the lightbox, the thumbnails are the before pictures and the lightbox pictures are the edited versions.
 
 I created a contact form on my Contact page that will actually send emails to my designated email address.  **note** if doing this for the first time from a different computer, you may have to re-confirm my email --- Brian/mentor will need me to confirm so they can verify it works.  Once I confirm in my email, they will need to refesh the page to get the Almost there page to click "I am not a robot" and click on the link to go back to the contact page.
 
+
+I have published this via GitHub pages: https://jedi-mom.github.io/index.html
+The source code can be found https://github.com/Jedi-Mom/jedi-mom.github.io
 ```
 
 
@@ -15,9 +16,6 @@ I created a contact form on my Contact page that will actually send emails to my
 ## Custom CSS Classes
 ```
 The class(es) I created are:
-
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
 
 Main.css
 1. Class name: .social-icon
@@ -54,8 +52,7 @@ This class will unhide the hidden picture.
 ```
 The javascript functions I created are:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+1. $('.photoToggle')  : When the "Light Box Instruction" button is pressed, it will change to text alerting the user "Click on the photo to see the edited version. Click on the edited version to close the window."
 
-
+2. $('#flashInst')  : This flashes the instructions on the screen for the lightbox.  It fades in at a rate of 3000 milliseconds, stays on the screen for 10,000 milliseconds and then fades back out. 
 ```
